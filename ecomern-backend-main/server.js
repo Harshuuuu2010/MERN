@@ -11,7 +11,7 @@ const io = new Server(server, {
   cors: "http://localhost:3001",
   methods: ["GET", "POST", "PATCH", "DELETE"],
 });
-
+//new comment
 const User = require("./models/User");
 const userRoutes = require("./routes/userRoutes");
 const productRoutes = require("./routes/productRoutes");
